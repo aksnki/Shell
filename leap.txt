@@ -1,0 +1,15 @@
+echo " Emter the year "
+read x
+if (( $x % 4 == 0 ))
+then
+ echo " Leap year "
+elif (( $x % 400 == 0 ))
+then
+ echo " Leap year "
+elif (( $x % 100 != 0 ))
+then
+ echo " Not Leap year "
+fi
+
+
+~

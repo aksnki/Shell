@@ -1,0 +1,17 @@
+#!/bin/sh
+a=10
+b=20
+c=30
+if [ $a == $b ]
+then
+ echo "a is equal to b"
+elif [ $a != $c ]
+then
+ echo "a  is not equal to b "
+elif [ $c -lt $b ]
+then
+ echo "c is less"
+else
+ echo "b is less than c"
+fi
+

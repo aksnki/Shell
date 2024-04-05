@@ -1,0 +1,8 @@
+echo "enter the number"
+read a
+for (( i=1; i<=10; 1++ ))
+do
+s=`expr $i \* $a`
+echo "$i * $a = "$s
+done
+

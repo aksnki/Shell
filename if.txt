@@ -1,0 +1,9 @@
+a=10
+b=20
+ if [ $a == $b ]
+then
+ echo "a is equl to b"
+else
+ echo "a is not equl to b"
+fi
+
